@@ -1,0 +1,8 @@
+$HOME: $envVars['HOME']
+==================================
+ Environment Variables
+==================================  
+#foreach( $ev in $envVars.keySet() )
+  $ev = $envVars[$ev]
+#end
+==================================
