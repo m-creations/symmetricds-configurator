@@ -11,7 +11,7 @@ You can run it with following command inside the root of checked out folder of p
 $JAVA_HOME/bin/java \
 -Dfile.encoding=UTF-8 \
 -jar ~/.m2/repository/com/mcreations/symmetricds/symmetricds-configurator/1.0-SNAPSHOT/symmetricds-configurator-1.0-SNAPSHOT-jar-with-dependencies.jar \
--s ./src -f .*.vm -d /tmp/ -u jdbc:mysql://localhost:13306/mydb -n myuser -p mypass
+-s ./src/test/resources -f .*.vm -d /tmp/ -u jdbc:mysql://localhost:13306/mydb -n myuser -p mypass
 ```
 After that you can see the rendred files in /tmp/ folder:
 ```
